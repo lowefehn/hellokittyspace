@@ -10,10 +10,10 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(800,600);
+  createCanvas(700,1440);
   ship = new Ship();
 
-  for (var i = 0; i < 6; i++) {
+  for (var i = 0; i < 10; i++) {
    targets[i] = new Target(i * 110 + 100, 80);
   }
 }
